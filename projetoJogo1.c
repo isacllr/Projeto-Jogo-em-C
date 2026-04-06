@@ -132,9 +132,9 @@ int main(){
                 scanf("%d", &escolha);
 
                 // Verificar se a caixa escolhida já foi aberta
-                int caixaAberta = 0; // serve para verificar se a caixa escolhida já foi aberta, caso seja verdade, a variável caixaAberta é setada para 1, indicando que a caixa já foi aberta, caso contrário, ela permanece 0, indicando que a caixa ainda não foi aberta. Essa verificação é importante para garantir que os jogadores não possam escolher caixas que já foram abertas anteriormente, o que poderia afetar a dinâmica do jogo e a estratégia dos jogadores.
+                int caixaAberta = 0; 
 
-                if(escolha == 1 && caixa1 == 1){ // verifica se a caixa escolhida é a caixa 1 e se ela já foi aberta, caso seja verdade, a variável caixaAberta é setada para 1, indicando que a caixa já foi aberta
+                if(escolha == 1 && caixa1 == 1){ 
                     caixaAberta = 1; 
             }   else if (escolha == 2 && caixa2 == 1){//
                     caixaAberta = 1;
